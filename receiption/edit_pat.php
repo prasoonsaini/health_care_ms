@@ -56,14 +56,7 @@
 						<label>Resident Address</label>
 						<input type="text" id="address" class="form-control" value="<?php echo $data['address'] ?>">
 					</div>
-					<div class="col-md-4">
-						<label for="">Is the Student?</label>
-						<select class="form-control" id="pat-type">
-							<option value="non student">Choose one</option>
-							<option value="student">Student</option>
-							<option value="non student">Non Student</option>
-						</select>
-					</div>
+					
 					<div class="col-md-4 regNumber" style="display:none">
 						<label for="">Enter Registration Number</label>
 						<input type="text" id="regNo" class="form-control" value="<?php echo $data['regNumber'] ?>">
