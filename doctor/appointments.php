@@ -25,7 +25,6 @@
                   <th>Phone</th>
                   <th>Date</th>
                   <th>Time</th>
-                  <th>Options</th>
                 </tr>
               </thead>
               <tbody>
