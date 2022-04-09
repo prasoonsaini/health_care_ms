@@ -11,7 +11,7 @@
 <body>
   <div class="container">
     <div class="logo">
-      <h2>SOB HCMS</h2>
+      <h2>HEALTHCARE...</h2>
     </div>
     <form class="login-form">
       <p>
@@ -33,7 +33,7 @@
   </div>
 
   <div class="footer">
-    <p>2018 &copy; Sobsuza</p>
+    <p>2018 &copy; Prasoon</p>
   </div>
 <script src="assets/js/jquery.min.js"></script>
 <script src="main.js"></script>
