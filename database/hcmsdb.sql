@@ -121,15 +121,7 @@ INSERT INTO `lab_appoint` (`id`, `patient_id`, `doc_id`, `req_test`, `e_date`, `
 (1, 24, 15, '', '2018-07-17', 1),
 (2, 30, 38, '', '2018-07-20', 1),
 (5, 34, 15, '', '2018-07-20', 1),
-(6, 35, 15, '', '2018-07-25', 1),
-(7, 36, 15, '', '2018-08-15', 1),
-(8, 34, 15, '', '2018-08-30', 1),
-(9, 34, 15, 'Malaria,Typhoid,HIV/AIDs', '2018-08-31', 1),
-(10, 32, 38, 'Malaria,U.T.P,Blood Pressure', '2018-08-31', 1),
-(11, 37, 15, 'Malaria,Blood Pressure', '2018-08-31', 1),
-(12, 39, 15, '', '2019-02-27', 1),
-(13, 40, 15, 'Malaria,Blood Group', '2019-03-28', 1),
-(14, 41, 38, 'Malaria', '2019-03-31', 1);
+(6, 35, 15, '', '2018-07-25', 1);
 
 -- --------------------------------------------------------
 
@@ -140,17 +132,12 @@ INSERT INTO `lab_appoint` (`id`, `patient_id`, `doc_id`, `req_test`, `e_date`, `
 CREATE TABLE `lab_results` (
   `id` int(11) NOT NULL,
   `patient_id` int(11) NOT NULL,
-  `malaria` varchar(30) NOT NULL,
-  `typhoid` varchar(100) NOT NULL,
-  `HIV/AIDs` varchar(100) NOT NULL,
   `blood_group` varchar(100) NOT NULL,
   `UTI` varchar(100) NOT NULL,
   `UTP` varchar(100) NOT NULL,
   `blood_pressure` varchar(100) NOT NULL,
   `weight` int(11) NOT NULL,
   `height` int(11) NOT NULL,
-  `allergy` varchar(5) NOT NULL,
-  `checked_by` varchar(100) NOT NULL,
   `status` int(11) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
